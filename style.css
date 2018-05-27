@@ -1,0 +1,38 @@
+@font-face {
+
+     font-family: 'kompakt';
+     src: url(designews/KompaktLTStd.otf);
+     font-style: normal;
+     font-weight: 100%;
+
+}
+
+
+
+
+.mydesignews {
+
+  color: white;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  font-family: KompaktLTStd;
+
+}
+
+.title1 {
+
+  font-family: KompaktLTStd;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+
+#kep1 {
+
+  padding-left: 50px;
+
+}
