@@ -1,0 +1,100 @@
+@font-face {
+
+    font-family: 'KompaktLTStd';
+    src: url(/designews/KompaktLTStd.otf);
+    font-style: normal;
+    font-weight: 100%;
+
+    font-family: 'SpecialElite-Regular';
+    src: url(designews/SpecialElite-Regular.ttf);
+    font-style: normal;
+    font-weight: 100%;
+
+    font-family: 'Fibra-Light';
+    src: url(designews/Fibra-Light.otf);
+    font-style: normal;
+    font-weight: 100%;
+
+    font-family: 'Fibra-Thin';
+    src: url(designews/Fibra-Thin.otf);
+    font-style: normal;
+    font-weight: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background: black;
+  width: 100%;
+  height: 35px;
+}
+
+.text {
+  color: white;
+  font-family: KompaktLTStd;
+  text-align:center;
+  padding: 10px;
+}
+
+.profile {
+  text-align: center;
+  font-family: SpecialElite-Regular;
+  font-size: 13px;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: KompaktLTStd;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.itemone {
+  font-family: KompaktLTStd;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+
+}
+
+
+.itemtwo {
+  font-family: Fibra-Thin;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.kep {
+  margin-bottom: 60px;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.ke {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#ez {
+  font-family: Fibra-Thin;
+  font-size: 18px;
+}
